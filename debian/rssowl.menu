@@ -1,0 +1,4 @@
+?package(rssowl):needs="x11" section="Applications/Network/Web Browsing" \
+  title="RSSOwl" command="/usr/bin/rssowl" hints="News readers" \
+  icon="/usr/share/pixmaps/rssowl.xpm"
+
