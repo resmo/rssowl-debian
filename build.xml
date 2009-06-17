@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="rssowl" default="dist-x86" basedir=".">
-    <description></description>
+    <description>Builds a Debian package of RSSOwl 2</description>
     <property file="project.properties"/>
     <property name="dl"  location="downloads"/>
     <property name="build"  location="build"/>
@@ -49,9 +49,7 @@
             depends="${depends}">
             <version upstream="${version}"/>
             <maintainer name="${maintainer.name}" email="${maintainer.email}"/>
-            <description synopsis="${description.synopsis}">
-${description.body}
-            </description>
+            <description synopsis="${description.synopsis}">${description.body}</description>
             <tarfileset file="${build}/${package.name}/rssowl.bin" prefix="usr/share/${package.name}" filemode="755"/>
             <tarfileset file="${build}/${package.name}/rssowl" prefix="usr/bin" filemode="755"/>
             <tarfileset file="${build}/${package.name}/rssowl.xpm" prefix="usr/share/pixmaps"/>
