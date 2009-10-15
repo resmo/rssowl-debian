@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/share/rssowl/rssowl.bin 
+/usr/share/rssowl/rssowl.bin -vmargs -DdisableUpdate=true 
