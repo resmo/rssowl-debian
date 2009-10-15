@@ -2,10 +2,10 @@
 <project name="rssowl" default="dist-x86" basedir=".">
     <description>Builds a Debian package of RSSOwl 2</description>
     <property file="project.properties"/>
-    <property name="dl"  location="downloads"/>
-    <property name="build"  location="build"/>
-    <property name="dist"  location="dist"/>
-    <property name="deb"  location="debian"/>
+    <property name="dl" location="downloads"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+    <property name="deb" location="debian"/>
     
     <path id="classpath">
         <fileset dir="lib" includes="*.jar"/>
@@ -16,10 +16,11 @@
     <target name="download" description="get and unzip upstream project">
         <mkdir dir="${dl}"/>
         <mkdir dir="${build}"/>
+        <echo>Downloading ${download.from.x86}</echo>
         <get src="${download.from.x86}" dest="${dl}/${download.name.x86}"/>
         <unzip src="${dl}/${download.name.x86}" dest="${build}"/>
     </target>
-    
+       
     <target name="create-desktop-entry" description="create the .desktop file">
         <mkdir dir="${build}"/>
         <desktopentry
