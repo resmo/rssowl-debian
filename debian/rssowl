@@ -1,2 +1,3 @@
 #!/bin/sh
+export GDK_NATIVE_WINDOWS=1
 /usr/share/rssowl/rssowl.bin -vmargs -DdisableUpdate=true 
