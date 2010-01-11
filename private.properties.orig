@@ -1,0 +1,7 @@
+//FTP
+ftp.host=package.example.org
+ftp.user=admin
+ftp.password=reallysecurepassword
+
+//GPG
+gpg.passphrase=reallysecurepassphrase
