@@ -1,29 +1,35 @@
+rssowl (2.0.3-1) stable; urgency=low
+
+  * new upstream version
+
+ -- René Moser <mail@renemoser.net>  Wed, 20 Jan 2010 22:51:00 +0200
+
 rssowl (2.0.2-2) unstable; urgency=low
 
   * adjusted dependencies
 
--- rené moser <mail@renemoser.net>  Sun, 10 Jan 2009 00:54:00 +0200
+ -- René Moser <mail@renemoser.net>  Sun, 10 Jan 2010 00:54:00 +0200
 
 rssowl (2.0.2-1) unstable; urgency=low
 
   * new upstream version
   
--- rené moser <mail@renemoser.net>  Wed, 30 Dec 2009 23:29:00 +0200
+ -- René Moser <mail@renemoser.net>  Wed, 30 Dec 2009 23:29:00 +0200
 
 rssowl (2.0.1-3) unstable; urgency=low
 
   * Implemented workaround for eclipse bug 287307 https://bugs.eclipse.org/bugs/show_bug.cgi?id=287307
 
- -- rené moser <mail@renemoser.net>  Thu, 24 Dec 2009 13:02:00 +0200
+ -- René Moser <mail@renemoser.net>  Thu, 24 Dec 2009 13:02:00 +0200
 
 rssowl (2.0.1-2) unstable; urgency=low
 
   * Corrected dependency
 
- -- rené moser <mail@renemoser.net>  Wed, 23 Dec 2009 12:42:00 +0200
+ -- René Moser <mail@renemoser.net>  Wed, 23 Dec 2009 12:42:00 +0200
 
 rssowl (2.0.1-1) unstable; urgency=low
 
   * new upstream version
 
- -- rené moser <mail@renemoser.net>  Sat, 19 Dec 2009 12:42:00 +0200
+ -- René Moser <mail@renemoser.net>  Sat, 19 Dec 2009 12:42:00 +0200
