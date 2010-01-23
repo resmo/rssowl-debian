@@ -1,18 +1,24 @@
+rssowl (2.0.3-2) stable; urgency=low
+
+  * Bugfix release
+
+ -- René Moser <mail@renemoser.net>  Sat, 23 Jan 2010 11:23:00 +0200
+
 rssowl (2.0.3-1) stable; urgency=low
 
-  * new upstream version
+  * New upstream version
 
  -- René Moser <mail@renemoser.net>  Wed, 20 Jan 2010 22:51:00 +0200
 
 rssowl (2.0.2-2) unstable; urgency=low
 
-  * adjusted dependencies
+  * Adjusted dependencies
 
  -- René Moser <mail@renemoser.net>  Sun, 10 Jan 2010 00:54:00 +0200
 
 rssowl (2.0.2-1) unstable; urgency=low
 
-  * new upstream version
+  * New upstream version
   
  -- René Moser <mail@renemoser.net>  Wed, 30 Dec 2009 23:29:00 +0200
 
@@ -30,6 +36,6 @@ rssowl (2.0.1-2) unstable; urgency=low
 
 rssowl (2.0.1-1) unstable; urgency=low
 
-  * new upstream version
+  * New upstream version
 
  -- René Moser <mail@renemoser.net>  Sat, 19 Dec 2009 12:42:00 +0200
