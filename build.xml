@@ -175,7 +175,8 @@
         </exec>
     </target>
     
-    <target name="deploy-debian-repos" depends="help">
+    <target name="deploy-debian-repos">
+    	<echo>Use ant -lib /usr/share/java/commons-net2.jar deploy-debian-repos</echo>
         <ftp server="${ftp.host}"
            userid="${ftp.user}"
            password="${ftp.password}"
